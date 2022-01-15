@@ -28,6 +28,11 @@ QE는 특정 목적에 특화된 추가 패키지를 제공합니다.
    - calculates reaction barriers and pathways (neb.x);
    - generates a reaction path, by interpolating the supplied path (path_interpolation.x);
 - PHonon : phonons with Density-Functional Perturbation Theory
+   - phonon frequencies and eigenvectors at a generic wave vector, using Density-Functional Perturbation Theory;
+   - effective charges and dielectric tensors;
+   - electron-phonon interaction coefficients for metals;
+   - interatomic force constants in real space;
+   - Infrared and Raman (nonresonent) cross section;
 - PostProc (PP) : various utilities for data postprocessing
 - PWcond : ballistic conductance
 - GWL: GW calculations and solution of the Bethe-Salpeter Equation
