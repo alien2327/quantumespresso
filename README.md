@@ -16,11 +16,17 @@ Quantum Espresso(QE) tutorial and example datas
    - Effective Screening Medium (ESM) method;
    - self-consistent continuum solvation (SCCS) model, need patched with [ENVIRON](http://www.quantum-environ.org/);
 - CP (CPV): Car-Parrinello Molecular Dynamics
+   - Car-Parrinello molecular dynamics;
+   - variable-cell dynamics;
+   - free-energy surface calculation at fixed cell through meta-dynamics, need patched with [PLUMED](https://www.plumed.org/); 
 
 ## Specialized packages
 QE는 특정 목적에 특화된 추가 패키지를 제공합니다.
 
 - PWneb (NEB) : energy barriers and reaction pathways through the Nudged Elastic Band method
+   - using PWscf package as computing engine;
+   - calculates reaction barriers and pathways (neb.x);
+   - generates a reaction path, by interpolating the supplied path (path_interpolation.x);
 - PHonon : phonons with Density-Functional Perturbation Theory
 - PostProc (PP) : various utilities for data postprocessing
 - PWcond : ballistic conductance
