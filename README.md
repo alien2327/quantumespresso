@@ -8,6 +8,13 @@ Quantum Espresso(QE) tutorial and example datas
 다음은 QE의 코어 패키지 리스트입니다. QE 코어 패키지는 [범함수이론(Density-Functional Theory, DFT)](https://en.wikipedia.org/wiki/Density_functional_theory)으로 전자구조를 계산하고, [평면파 기저(Plane-Wave basis sets)](https://www.tcm.phy.cam.ac.uk/castep/documentation/WebHelp/content/modules/castep/thcastepplanebasis.htm)와 [유사 퍼텐셜(pseudopotentials)](https://en.wikipedia.org/wiki/Pseudopotential)를 사용합니다. [추가1](https://nwchemgit.github.io/pw-lecture.pdf) [추가2](https://www.phenix.cnrs.fr/IMG/pdf/dft-pw.pdf)
 
 - PWscf (PW) : Plane-Wave Self-Consistent Field
+   - ground-state energy and one-electron (Kohn-Sham) orbitals, atomic forces, stresses;
+   - structural optimization, also with variable cell;
+   - molecular dynamics on the Born-Oppenheimer surface, also with variable cell;
+   - macroscopic polarization (and orbital magnetization) via Berry Phases;
+   - various forms of finite electric fields, with a sawtooth potential or with the modern theory of polarization;
+   - Effective Screening Medium (ESM) method;
+   - self-consistent continuum solvation (SCCS) model, need patched with [ENVIRON](http://www.quantum-environ.org/);
 - CP (CPV): Car-Parrinello Molecular Dynamics
 
 ## Specialized packages
